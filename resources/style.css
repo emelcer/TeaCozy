@@ -87,9 +87,31 @@ div.tealist {
 
 div.locations {
   display: inline-flex;
+  flex-direction: column;
   height: 500px;
-  width: 1000px;
+  width: 1200px;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  background-size: cover;
+}
+
+.locations h2 {
+  margin-top: 70px;
+}
+
+div.location-boxes {
+  display: inline-flex;
+  justify-content: center;
+}
+
+.location-box {
+  background-color: black;
+  width: 300px;
+  margin: 0 20px;
+}
+
+.location-box p {
+  margin: 40px 0;
+  padding: 0 10px;
 }
 
 footer {

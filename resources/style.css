@@ -33,7 +33,6 @@ header {
   height: 50px;
 }
 
-
 nav a {
   color: white;
   padding-right: 20px;
@@ -61,6 +60,37 @@ nav a {
   background-color: black;
 }
 
+/*tea of the month*/
+
+div.menu{
+  margin: 60px auto;
+}
+
+div.tealist {
+  display: inline-flex;
+  width: 1000px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+.tealist h4 {
+  margin-top: 10px;
+}
+
+.tea-image img {
+  width: 300px;
+  height: 200px;
+}
+
+/*locations*/
+
+div.locations {
+  display: inline-flex;
+  height: 500px;
+  width: 1000px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+}
 
 footer {
   background-color: yellow;

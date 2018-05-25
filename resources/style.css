@@ -56,8 +56,11 @@ nav a {
   width: 1200px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   background-color: black;
+}
+
+.headers h2, h4 {
+  margin: 10px;
 }
 
 /*tea of the month*/

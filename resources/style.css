@@ -24,7 +24,7 @@ header {
 }
 
 .logo {
-  display: inline-flex;
+  display: flex;
   flex-grow: 1;
   margin-left: 10px;
 }
@@ -48,8 +48,10 @@ nav a {
   height: 700px;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
   background-repeat: no-repeat;
-  display: inline-flex;
+  display: flex;
   align-items: center;
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .headers {
@@ -69,16 +71,21 @@ div.menu{
   margin: 60px auto;
 }
 
+.menu h4 {
+  margin-bottom: 30px;
+}
+
 div.tealist {
-  display: inline-flex;
-  width: 1000px;
-  justify-content: space-around;
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+  justify-content: center;
   flex-wrap: wrap;
   align-content: space-between;
 }
 
-.tealist h4 {
-  margin-top: 10px;
+.tea-image {
+  padding: 0 20px;
 }
 
 .tea-image img {
@@ -86,13 +93,19 @@ div.tealist {
   height: 200px;
 }
 
+.tealist h4 {
+  margin-top: 10px;
+}
+
+
 /*locations*/
 
 div.locations {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   height: 560px;
   width: 1200px;
+  margin: 0 auto;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
   background-size: cover;
 }
@@ -102,7 +115,7 @@ div.locations {
 }
 
 div.location-boxes {
-  display: inline-flex;
+  display: flex;
   justify-content: center;
 }
 
@@ -121,9 +134,10 @@ div.location-boxes {
 
 .contact {
   height: 200px;
+  padding-top: 30px;
 }
+
 .contact h2 {
-  margin-top: 10px;
   margin-bottom: 50px;
 }
 
